@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="parallax" id="section1">
+        <div class="content">
+            <h1>Bem-vindo ao Mastermind</h1>
+            <p>Descubra seu número mágico e desbloqueie seu potencial.</p>
+        </div>
+    </div>
+
+    <div class="parallax" id="section2">
+        <div class="content">
+            <h2>Por que pedimos seu nome completo?</h2>
+            <p>Seu nome é a essência da sua identidade. Ele contém vibrações únicas que influenciam sua personalidade e seu destino.</p>
+        </div>
+    </div>
+
+    <div class="parallax" id="section3">
+        <div class="content">
+            <h2>Por que pedimos sua data de nascimento?</h2>
+            <p>Sua data de nascimento é um mapa que revela ciclos e padrões importantes na sua jornada de vida.</p>
+        </div>
+    </div>
+
+    <div class="parallax" id="section4">
+        <div class="content">
+            <h2>Por que pedimos a hora de nascimento?</h2>
+            <p>A hora de nascimento é essencial para calcular com precisão sua posição no universo e sua conexão com as energias cósmicas.</p>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <h2>Inicie Sua Jornada</h2>
+        <form id="numerology-form">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" placeholder="Seu nome completo" required>
+
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" id="dob" required>
+
+            <label for="time">Hora de Nascimento:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+
+    <div class="parallax" id="section5">
+        <div class="content">
+            <h2>Resultado</h2>
+            <p id="final-result">Seu resultado aparecerá aqui após o cálculo.</p>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
